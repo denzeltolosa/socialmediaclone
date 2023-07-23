@@ -1,0 +1,30 @@
+body{
+    background-color: #e7e7e7;
+}
+#section{
+   position: relative;
+   top: 350px;
+   left: 35%;
+   width: 500px;
+   height: 200px;
+
+}
+#section h2{
+    text-align: center;
+}
+#section button{
+    position: relative;
+    left: 32%;
+    top: 8%;
+    font-size: 20px;
+    width: 90px;
+    padding: 10px 10px;
+    background-color: #dddcdc;
+}
+#section button:hover{
+    cursor: pointer;
+}
+#section p{
+    position: relative;
+    top: 50px;
+}

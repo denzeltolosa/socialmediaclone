@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Crush Baka Naman</title>
+</head>
+<body>
+    
+    <div id="section">
+        <h2>Crush mo ba ako?</h2>
+
+        <button class="btn" id="yes">Oo</button>
+        <button class="btn" id="no">Hindi</button>
+        <p id="question" style="text-align:center;"></p>
+        <p id="display" style="text-align:center;"></p>
+        <script type="text/javascript">
+          
+    const noBtn = document.getElementById('no');
+    const yesBtn = document.getElementById('yes');
+    let btn = document.getElementById('btn');
+    const ques = document.getElementById('question');
+    var img = document.createElement("img");
+    img.src = "kilig.gif";
+   
+        let position;
+        noBtn.addEventListener('mouseover',() =>{
+        let rand = Math.floor(Math.random() * (500 - 100) + 1);
+        let rand2 = Math.floor(Math.random() * (-300 - 100) + 1);
+        noBtn.style.transform = "translate("+rand+"px,"+rand2+"px)";
+        });
+    yesBtn.addEventListener("click",()=>{
+        ques.innerHTML = "AYIEEEEEEEEEEE HAHAHAHA ❤️";
+        var p = document.getElementById("display");
+        p.appendChild(img);
+       
+    })
+
+        </script>
+        
+    </div>
+
+   
+</body>
+</html>
